@@ -1,3 +1,26 @@
+# ciminilab-swe-test
+## Task: Change the recipe card provided by Material UI docs 
+
+
+In this homework, you will build on MUI’s demo of a card found in their documentation: 
+https://material-ui.com/components/cards/#complex-interaction
+
+This card lacks basic functionality. The objective of this homework is to make the card more interactive. 
+
+What you should do:
+- Change the menu button (the three vertical dots next to the title) to correspond to an edit icon. 
+- Clicking on the edit icon button, the user should be provided with the following options:
+    - An “Upload image” option to upload a new image from the user’s desktop. The new image will replace the current image. Note that currently there is no image as it was taken straigth from Material UI docs.
+    - An “Edit content” option which allows the user to change the title of the card and the descriptive text of the recipe card. The date shown under the title should correspond to today’s date. 
+    - A “Save content” option which saves in a .json file the following data: (1) the title of the card, (2) the date, (3) the image data URI, (4) and the descriptive content.  
+- Hovering on the "Like" button should make the icon temporarily red instead of gray.
+- Clicking on the “like” button (the heart icon) should show the number of times that the button has been clicked, since first render. The count should show near to the heart icon.
+- The card should be centered on the screen horizontally. Vertical padding may be added. 
+
+
+Feel free to be creative in terms of UI/UX, no constraints given here. 
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,4 +91,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# ciminilab-swe-test
