@@ -4,6 +4,9 @@
 
 In this homework, you will build on MUI’s demo of a card found in their documentation: 
 https://material-ui.com/components/cards/#complex-interaction
+When loading this project, you will see the following content:
+![Alt text](public/preview.png?raw=true "Title")
+
 
 This card lacks basic functionality. The objective of this homework is to make the card more interactive. 
 
