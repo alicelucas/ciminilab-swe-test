@@ -1,1 +1,0 @@
-# ciminilab-swe-test
