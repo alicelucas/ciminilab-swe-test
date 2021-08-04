@@ -1,1 +1,0 @@
-export { RecipeReviewCard } from "./Card"

@@ -1,14 +1,15 @@
 # ciminilab-swe-test
-## Task: Make an interactive recipe card
+## Task 1: Make an interactive recipe card with React
 
 
 In this project, you will build on MUI’s demo of a recipe card available in their documentation: 
 https://material-ui.com/components/cards/#complex-interaction
 
 
-Once this project is cloned, dependencies are installed (`yarn install`), and the app is started (`yarn start`), you will see the following content:
-![Alt text](public/preview.png?raw=true "Title")
+First navigate to "Task1-React" folder, then install dependencies with `yarn install`. Start the app with `yarn start`. 
+You will see the following content:
 
+![Alt text](Task1-React/public/preview.png?raw=true "Title")
 
 This simple card lacks functionality. In this work, we will make the "Upload image," "Download content," and "Like" button functional. 
 
