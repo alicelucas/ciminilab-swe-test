@@ -9,7 +9,7 @@ https://material-ui.com/components/cards/#complex-interaction
 First navigate to "Task1-React" folder, then install dependencies with `yarn install`. Start the app with `yarn start`. 
 You will see the following content:
 
-![Alt text](Task1-React/public/preview.png?raw=true "Title")
+![Alt text](public/preview.png?raw=true "Title")
 
 This simple card lacks functionality. In this work, we will make the "Upload image," "Download content," and "Like" button functional. 
 
