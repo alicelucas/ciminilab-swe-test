@@ -10,12 +10,13 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import {red} from '@material-ui/core/colors';
 import FavoriteIcon from '@material-ui/icons/Favorite';
-import MoreVertIcon from '@material-ui/icons/MoreVert';
+import {CloudUpload, GetApp} from "@material-ui/icons";
+import Tooltip from "@material-ui/core/Tooltip";
 
 const useStyles = makeStyles((theme: Theme) =>
     createStyles({
         root: {
-            maxWidth: 345,
+            maxWidth: 400,
         },
         media: {
             height: 0,
@@ -49,9 +50,18 @@ export const RecipeReviewCard = () => {
                     </Avatar>
                 }
                 action={
-                    <IconButton aria-label="settings">
-                        <MoreVertIcon />
-                    </IconButton>
+                    <React.Fragment>
+                        <IconButton>
+                            <Tooltip title={"Upload image"}>
+                                <CloudUpload/>
+                            </Tooltip>
+                        </IconButton>
+                        <IconButton>
+                            <Tooltip title={"Download content"}>
+                                <GetApp/>
+                            </Tooltip>
+                        </IconButton>
+                    </React.Fragment>
                 }
                 title="Shrimp and Chorizo Paella"
                 subheader="September 14, 2016"
@@ -68,9 +78,12 @@ export const RecipeReviewCard = () => {
                 </Typography>
             </CardContent>
             <CardActions disableSpacing>
+            <Tooltip title={"Like"}>
                 <IconButton aria-label="add to favorites">
                     <FavoriteIcon />
                 </IconButton>
+            </Tooltip>
+
             </CardActions>
         </Card>
     );
