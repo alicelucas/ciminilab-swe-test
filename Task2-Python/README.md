@@ -5,7 +5,7 @@ Borrowing as heavily as you need from existing online examples (suggested resour
 
 * Loads each pair of images ([suggested resource](https://scikit-image.org/docs/dev/user_guide.html))
 * Applies a denoising or smoothing to Ch01 ([suggested resource](https://scikit-image.org/docs/dev/auto_examples/#filtering-and-restoration))
-* Segments (labels) Ch01 ([suggested resource](https://scikit-image.org/docs/dev/auto_examples/#segmentation-of-objects))
+* Segments (labels) Ch01, creating distinct regions in each image that correspond to each bright blob ([suggested resource](https://scikit-image.org/docs/dev/auto_examples/#segmentation-of-objects))
 * Creates an overlay or outline image of the identified labels on the original Ch01 image, and saves it out
 * Measures the mean and standard deviation of channel 2 in each label ([suggested resource](https://docs.scipy.org/doc/scipy/reference/ndimage.html#measurements))
 
