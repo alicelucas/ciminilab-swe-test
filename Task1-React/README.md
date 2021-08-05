@@ -23,8 +23,7 @@ the following data: (1) the title of the recipe, (2) the date shown on the card 
      The current count should be displayed near to the heart icon.
 - Finally, make sure that the recipe card is centered in the screen as opposed to being in the upper left corner.
 
+Note that this exercise should take no more than 60 minutes. 
+If you get stuck on one of the functionalities, please still send your solution back to us!
 
-Please write your solution in Typescript.
-
-This exercise should take approximately 60 minutes to complete. 
-
+Please write your solution in Typescript. You should return to us all of the source code for running the project.
