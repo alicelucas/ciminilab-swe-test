@@ -10,7 +10,8 @@ and [bcimini@broadinstitute.org](bcimini@broadinstitute.org) using the following
  which includes all source code, including the `package.json` file to install all dependencies. We want to be able to 
  run the app locally on our machines and try out the app.
 - For Task 2 (the Python project), return the python `.py` script written to complete the task. Alternatively, you may 
-provide a Jupyter Notebook or any other format that you find works best for you.
+provide a Jupyter Notebook or any other format that you find works best for you. Please specify the Python version and 
+library versions needed to execute your script.
 
 
 Feel free to contact [alucas@broadinstitute.org](alucas@broadinstitute.org) for any questions you may have. 
