@@ -119,7 +119,7 @@ Make sure it includes `package.json`, and the we can run your code simply by run
 
 If you'd like, document your changes, and explain your reasoning. Make sure to provide us instructions on how to get your solution. Either provide a zip, or put it on GitHub (private repository only) and make sure we have access. Do not make your solution publicly accessible!
 
-My Github account name is [gnodar01](https://github.com/gnodar01/).
+Our Github account names are [gnodar01](https://github.com/gnodar01/) and [bethac07](https://github.com/bethac07).
 Email the solution to ngogober@broadinstitute.org and bcimini@broadinstitute.org.
 
 Thank you again for your time!
