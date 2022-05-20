@@ -1,6 +1,6 @@
 First of all, thank you for your time, it is truly appreciated!
 
-This repository contains two tasks - one of which should be completed in typescript and one of which should be completed in can be completed in any scientific language you like (thought it was originally designed for Python and the example links are for that language). 
+This repository contains two tasks - one of which should be completed in typescript and one of which can be completed in any scientific language you like (thought it was originally designed for Python and the example links are for that language). 
 
 The purpose of these excercises is simply to get an insight into your coding style in each library and your comfort completing tasks in each.
 
