@@ -35,7 +35,7 @@ The first step is to download (`git clone`) the code and install the dependencie
 
 #### Fix Compiler Errors
 
-`npm start` will run the app in development mode, serving to [http://localhost:3000](http://localhost:3000). The code will compile (actually transpile), and any edits you make will autoreload the compiler and page. You'll notice that at first the compiler will show type warnings and errors). You will need to address those as you go. A successfully submitted project will have no warnings or errors, and the compiler will show ("Compiled Successfully!" with "No issues found.").
+`npm start` will run the app in development mode, serving to [http://localhost:3000](http://localhost:3000). The code will compile (actually transpile), and any edits you make will autoreload the compiler and page. You'll notice that at first the compiler will show type warnings and errors). You will need to address those as you complete the three sub-tasks below. A successfully submitted project will have no warnings or errors, and the compiler will show ("Compiled Successfully!" with "No issues found.").
 
 Make sure to actually address the warnings and errors. Do not simply use `//@ts-ignore` or `//eslint-disable` (although some are already present in the codebase, and you may leave those there).
 
