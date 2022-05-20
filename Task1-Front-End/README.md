@@ -1,6 +1,6 @@
 # Front-End Take-Home Project
 
-This codebase was made using [Create React App](https://create-react-app.dev/) with the [cra-template-redux-typescript](https://www.npmjs.com/package/cra-template-redux-typescript) template, and then modified to incorporate a example transfer learning project provided by the Tensorflow team [here](https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning). Essentially, it is a Typescript based React app, using Redux (and Redux toolkit) for state management, and Tensorflow.js for model training.
+This codebase was made using [Create React App](https://create-react-app.dev/) with the [cra-template-redux-typescript](https://www.npmjs.com/package/cra-template-redux-typescript) template, and then modified to incorporate an example transfer learning project provided by the Tensorflow team [here](https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning). Essentially, it is a Typescript based React app, using Redux (and Redux toolkit) for state management, and Tensorflow.js for model training.
 
 ## Resources
 
@@ -13,17 +13,17 @@ This codebase was made using [Create React App](https://create-react-app.dev/) w
 
 ## App Description
 
-The application is a Pacman game (code originally from Google; try googling Pacman to see the original). The game can be played using the keyboard's arrow keys, but that's very 1980s. We want to play the game using the webcam. To do so we'll take a few training images for each of the up, down, left and right positions. For example you can take a set of images pointing up, for the up direction, and so on for the others. We'll then transfer learn on a pretrained MobileNet, passing in these training images. We're essentially training a classifier to detect up, down, left, and right images. When we click "play", the webcam will continuously take new images, and pass them to the trained model for inference. If it was trained decently, when you point up pacman will go up, and so on for the other directions.
+The application is a Pacman game (code originally from Google; try googling Pacman to see the original). The game can be played using the keyboard's arrow keys, but that's very 1980s. We want to play the game using the webcam as a joystick. To do so we'll take a few training images for each of the up, down, left and right positions. For example you can take a set of images pointing up, for the up direction, and so on for the others. We'll then transfer learn on a pretrained MobileNet, passing in these training images. We're essentially training a classifier to detect up, down, left, and right images. When we click "play", the webcam will continuously take new images, and pass them to the trained model for inference. If it was trained decently, then when you point up, pacman will go up, and so on for the other directions.
 
-Don't worry if you're a bit fuzz on terms like "transfer learning". You won't need to create any deep learning models from scratch. It's already done for you.
+Don't worry if you're a bit fuzzy on terms like "transfer learning". You won't need to create any deep learning models from scratch. It's already done for you.
 
 You can see and use the complete version [here](https://storage.googleapis.com/tfjs-examples/webcam-transfer-learning/dist/index.html) for reference. There may be some stylistic differences between that and this code, but the functionality should be identical.
 
 ## The Task
 
-The code is currently incomplete. Your task is to complete it. You are encouraged to use whatever online resources or books that you want. That includes reading documentation on the tech stack (links provided above), and the [original source code](https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning) for the app. You may not solicit the help of other people (friends, family, classmates, etc.), although you are free to email us to ask questions.
+The code is currently incomplete. Your task is to complete it. You are encouraged to use whatever online resources or books that you want. That includes reading documentation on the tech stack (links provided above), reading through stack overflow posts, and reviewing the [original (non-react) source code](https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning) for the app. You may not solicit the help of other people (friends, family, classmates, etc.), although you are free to email us to ask questions.
 
-Do not feel that you must read all of the documentation linked above, even if you are not acquanited with a tool. We're not using all of the features the various tools, and so you really need to have a broad understanding. It may even help to watch a YouTube video, or search for a tutorial, instead of reading the docs directly.
+Do not feel that you must read all of the documentation linked above, even if you are not acquanited with a tool. We're mostly using the basic features of the various tools, so you won't need to dig in to all of the advanced features and patterns of the tools. It may even help to watch a YouTube video, or search for a tutorial, instead of reading the docs directly.
 
 Likewise, do not feel the need to full investigate every line of the original source code, or even the assignment code. Although it's not a terribly large and complex application, and you certainly could cover it all if you felt inclined, you don't need to acquaint yourself with every line. You only need to understand enough to finish the assignment.
 
