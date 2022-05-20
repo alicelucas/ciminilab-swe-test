@@ -1,5 +1,11 @@
 # Front-End Take-Home Project
 
+First of all, thank you for your time, it is truly appreciated!
+
+This repository contains a take home project to complete so that we can assess your comfort level in front end development.
+
+Make sure to go through this README before starting. Do not make any of your work publicly accessible.
+
 This codebase was made using [Create React App](https://create-react-app.dev/) with the [cra-template-redux-typescript](https://www.npmjs.com/package/cra-template-redux-typescript) template, and then modified to incorporate an example transfer learning project provided by the Tensorflow team [here](https://github.com/tensorflow/tfjs-examples/tree/master/webcam-transfer-learning). Essentially, it is a Typescript based React app, using Redux (and Redux toolkit) for state management, and Tensorflow.js for model training.
 
 ## Resources
@@ -107,6 +113,14 @@ If you do the tasks above correctly, you should be able to hop into the UI, and 
 
 ## Submit
 
-Submit your code. If you'd like, document your changes, and explain your reasoning. Make sure to provide us instructions on how to get your solution. Either provide a zip, or put it on GitHub (private repository only) and make sure we have access. Do not make your solution publicly accessible!
+Submit your code.
+
+Make sure it includes `package.json`, and the we can run your code simply by running `npm install && start`.
+
+If you'd like, document your changes, and explain your reasoning. Make sure to provide us instructions on how to get your solution. Either provide a zip, or put it on GitHub (private repository only) and make sure we have access. Do not make your solution publicly accessible!
 
 My Github account name is [gnodar01](https://github.com/gnodar01/).
+Email the solution to ngogober@broadinstitute.org and bcimini@broadinstitute.org.
+
+Thank you again for your time!
+
