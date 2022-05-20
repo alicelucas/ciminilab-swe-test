@@ -33,7 +33,7 @@ You may use whatever tex editor or IDE you want, and whatever tools you want.
 
 The first step is to download (`git clone`) the code and install the dependencies with `npm install`.
 
-### Fix Compiler Errors
+#### Fix Compiler Errors
 
 `npm start` will run the app in development mode, serving to [http://localhost:3000](http://localhost:3000). The code will compile (actually transpile), and any edits you make will autoreload the compiler and page. You'll notice that at first the compiler will show type warnings and errors). You will need to address those as you go. A successfully submitted project will have no warnings or errors, and the compiler will show ("Compiled Successfully!" with "No issues found.").
 
@@ -43,7 +43,7 @@ NOTE: The `@typescript-eslint/no-unused-vars` warnings are related to functions 
 
 Of course can delete/remove things if you want. But be mindful that when you delete something it means you have decided to implement an alternative solution (which is perfectly fine), not because it was unecessary in the first place and we expected you to remove it.
 
-### Complete Functionality
+#### Complete Functionality
 
 You'll notice that the app is not functional in its current state. It's your task to make it fully functional, both by compiling without errors and warnings, and by making sure the app runs as expected.
 
@@ -59,7 +59,7 @@ You will not need to include additional packages in `packages.json`. If you find
 
 Here are the things you'll need to write to make the app fully functional.
 
-#### Initialize Webcam
+##### Sub-Task 1) Initialize Webcam
 
 In `src/components/Controller.tsx`, initialize the webcam. The analogous code in the original (non-react) code is in [index.js, lines 181-196](https://github.com/tensorflow/tfjs-examples/blob/master/webcam-transfer-learning/index.js#L181) (ignore line 187 since that's already done for you).
 
@@ -73,7 +73,7 @@ Finally notice that in `src/store/uiSlice` there is a `webcamStatus` field. Make
 
 You may find `types/WebcamIterator` helpful.
 
-#### Add Image Functionality
+##### Sub-Task 2) Add Image Functionality
 
 `src/components/JoystickPanel.tsx` makes use of `src/components/RecordButton.tsx`, one `RecordButton` component for each of the up, down, left, and right directions. In the UI, these are the boxes around the joystick. When the user clicks down on one of the boxes, the current frame from the webcam is captured and assigned to the respective direction. If the user holds the mouse down, more frames are caputred. When the user de-presses the mouse, frames are no longer captured.
 
@@ -89,7 +89,7 @@ You'll also notice that in `handler` there is a [`while` loop](https://github.co
 
 I don't recommend simply defining a `while` loop in the react code. Firstly i'd be suprised if you made it work, but even if you did it's probably not the best approach. Instead I would recommend using `setInterval`, with a delay of something like `100` milliseconds. If using a `useEffect`, don't forget to return a function that calls `clearInterval`. See [here](https://reactjs.org/docs/hooks-faq.html#what-can-i-do-if-my-effect-dependencies-change-too-often) for more details.
 
-#### Predict (Play) Functionality
+##### Sub-Task 3) Predict (Play) Functionality
 
 `src/components/TrainingPanel.tsx` makes use of `src/components/TrainButton.tsx` and `src/components/PredictButton.tsx`. The `TrainButton` component is already complete (other than missing type information). You can see the analogous code in [index.js, on line 167](https://github.com/tensorflow/tfjs-examples/blob/7283c559897e29e33a09aa451bfc643e2354c090/webcam-transfer-learning/index.js#L167), and the associated click handler on [line 64](https://github.com/tensorflow/tfjs-examples/blob/7283c559897e29e33a09aa451bfc643e2354c090/webcam-transfer-learning/index.js#L64). One thing to note, is that it dispatches a `setPredicting(false)` action to the store, setting the corresponding `predicting` flag in `src/store/modelSlice.tsx` to false.
 
