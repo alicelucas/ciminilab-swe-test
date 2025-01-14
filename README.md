@@ -26,7 +26,7 @@ Along with your code, ensure there is a [pyproject.toml](https://packaging.pytho
 
 Include in the `README.md` instructions for installing your solution, which should amount to a single CLI command (e.g. `pip install -e .`), and running it, which should also amount to a single CLI command.
 
-Ensure that your dependencies are pip-installable on Mac (x86 and arm) / Windows / Linux (at least Ubuntu). You do not need to test on different architectures, simply check if your dependencies and their versions are either pure python or provide wheels/binaries for those OS+architecture combinations.
+Ensure that your dependencies are installable on Mac (x86 and arm), Windows, and Linux (at least Ubuntu). You do not need to test on all of these, simply check if your dependencies, at their  pinned versions, are either pure python or provide wheels/binaries for those OS+architecture combinations.
 
 If using `conda` / `mamba` / `pixi` etc. restrict the conda repository to `conda-forge` only.
 
